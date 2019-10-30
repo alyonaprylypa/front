@@ -1,0 +1,96 @@
+body {
+    background-image: url("loopme/twinings_assets/loading_P.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.css-adaptive {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.video video {
+    position: fixed;
+    margin-left: 14%;
+    margin-top: 4%;
+    height: 47%;
+    width: 67%;
+    border: 2px solid white;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    margin: -2px;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    color: black;
+    opacity: .6;
+
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: black;
+    background-repeat: repeat-x;
+}
+
+input[type="radio"]:checked {
+    background: black;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.packshot img {
+    position: fixed;
+    height: 37%;
+    width: 37%;
+    margin-left: 8%;
+    padding-top: 95%;
+}
+
+.logo img {
+    position: fixed;
+    height: 9%;
+    width: 37%;
+    margin-left: 52%;
+    padding-top: 95%;
+}
+
+.text img {
+    position: fixed;
+    height: 18%;
+    width: 24%;
+    margin-left: 58%;
+    padding-top: 112%;
+}
+
+#button {
+    height: 5%;
+    width: 37%;
+    margin-left: 55%;
+    padding-top: 151%;
+}
+
+p {
+    position: fixed;
+    z-index: 1;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10%;
+    margin-left: 10%;
+}
+
+#radioBtns {
+    position: fixed;
+    margin-left: 20%;
+    z-index: 1;
+}
